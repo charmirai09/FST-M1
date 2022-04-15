@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG_Projects.Activity1_Verify_WebsiteTitle"/>
+      <class name="testNG_Projects.Activity2_Verify_WebsiteHeading"/>
+      <class name="testNG_Projects.Activity3_Title_FirstInfobox"/>
+      <class name="testNG_Projects.Activity4_Title_PopularCourse"/>
+      <class name="testNG_Projects.Activity5_Title_NavigateToMyAccount"/>
+      <class name="testNG_Projects.Activity6_Login_ConfirmSuccessful"/>
+      <class name="testNG_Projects.Activity7_CountofNumberofCourses"/>
+      <class name="testNG_Projects.Activity8_ContactAdmin"/>
+      <class name="testNG_Projects.Activity9_CompleteAlesson"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
